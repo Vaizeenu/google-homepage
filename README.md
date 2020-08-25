@@ -1,5 +1,5 @@
 # google-homepage
-A recreation of the google homepage using html and css for educational puprposes.
+A recreation of the google homepage using html and css for educational purposes.
 
 This is my first attempt to recreate an existing webpage, the google homepage. 
 
