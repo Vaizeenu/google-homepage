@@ -18,7 +18,7 @@ header {
 }
 
 #navbar li {
-    padding-left: 15px;
+    padding: 0 11px;
 }
 
 #more-google-apps-button {
@@ -29,4 +29,13 @@ header {
     background-position: -120px -38px;
     background-size: 528px 68px;
     opacity: .55;
+}
+
+#login-btn {
+    display: block;
+    background-color: #4387fd;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 2px;
 }
