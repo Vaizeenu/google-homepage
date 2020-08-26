@@ -1,0 +1,30 @@
+/* Generic Settings*/
+body {
+    font-family: arial, sans-serif;
+}
+/* Header Navbar */
+header {
+    float: right;
+}
+
+#navbar {
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 1px 30px 0 30px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#navbar li {
+    padding-left: 15px;
+}
+
+#more-google-apps-button {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -120px -38px;
+    background-size: 528px 68px;
+}
