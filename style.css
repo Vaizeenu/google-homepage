@@ -76,15 +76,18 @@ header {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 44px;
+    width: 582px;
+    justify-content: space-between;
 }
 
 #searchbox {
     border: none;
     background-color: transparent;
-    width: 414px;
     font-size: 16px;
     font-family: arial, sans-serif;
     height: 34px;
+    flex: 100%;
+    margin-top: 5px;
 }
 
 .search-icon {
@@ -92,6 +95,12 @@ header {
     height: 15px;
     width: 15px;
     opacity: 0.6;
+}
+
+.keyboard-icon {
+    height: 23px;
+    width: auto;
+    margin: 10px 15px 10px 10px;
 }
 
 #btns {
