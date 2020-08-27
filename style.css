@@ -43,7 +43,6 @@ header {
 
 /* Main Body*/
 .main-grid-box {
-    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -51,20 +50,24 @@ header {
     min-width: 400px;
     width: 584px;
     position: absolute;
-    top: 18%;
-    left: 30%;
+    top: 18.2%;
+    left: 34.5%;
+
+    display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 2fr 1fr 1fr 1fr;
     grid-template-areas:
         "google google google google"
-        ". sfld sfld ."
+        "sfld sfld sfld sfld"
         ". buttons buttons ."
-        "langs langs langs langs"
+        ". langs langs ."
 }
 
 #g-logo {
     grid-area: google;
+    place-self: center;
+    opacity: 0.95;
 }
 
 #sfld {
@@ -75,8 +78,21 @@ header {
     grid-area: buttons;
 }
 
+div#btns button {
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    padding: 0 16px;
+    margin: 11px 4px;
+    font-family: arial, sans-serif;
+}
+
 #languages-offered {
     grid-area: langs;
+    font-size: small;
+    color: #222;
 }
 /* Footer */
 footer {
