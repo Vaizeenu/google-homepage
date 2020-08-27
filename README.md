@@ -26,3 +26,5 @@ This is my first attempt to recreate an existing webpage, the google homepage.
     - Formed horizontal navbar from html list, correctly placed navbar, styled font-size, color, and distance between elements of list. 
     - Added icon in html navbar, placed and styled it correctly in css. Painted "login" button in top right and used padding and margin to approximate original button measurements.
     - Started styling on footer. Added grey background, and top and bottom borders, and correctly made them go until the edges of the screen using padding and not margin.
+    - Transformed list elements in inline elements using float on container ul.
+    - Will finish tomorrow since i'm tired.
