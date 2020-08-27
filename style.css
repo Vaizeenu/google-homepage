@@ -49,10 +49,34 @@ header {
     text-align: center;
     height: 300px;
     min-width: 400px;
+    width: 584px;
     position: absolute;
     top: 18%;
     left: 30%;
     grid-auto-flow: row;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "google google google google"
+        ". sfld sfld ."
+        ". buttons buttons ."
+        "langs langs langs langs"
+}
+
+#g-logo {
+    grid-area: google;
+}
+
+#sfld {
+    grid-area: sfld;
+}
+
+#btns {
+    grid-area: buttons;
+}
+
+#languages-offered {
+    grid-area: langs;
 }
 /* Footer */
 footer {
