@@ -71,7 +71,27 @@ header {
 }
 
 #sfld {
+    display: flex;
     grid-area: sfld;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+}
+
+#searchbox {
+    border: none;
+    background-color: transparent;
+    width: 414px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    height: 34px;
+}
+
+.search-icon {
+    margin: 15px;
+    height: 15px;
+    width: 15px;
+    opacity: 0.6;
 }
 
 #btns {
