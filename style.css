@@ -42,7 +42,18 @@ header {
 }
 
 /* Main Body*/
-
+.main-grid-box {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    min-width: 400px;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    grid-auto-flow: row;
+}
 /* Footer */
 footer {
     background-color:#f2f2f2;
