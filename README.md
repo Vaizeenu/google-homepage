@@ -8,6 +8,7 @@ This is my first attempt to recreate an existing webpage, the google homepage.
     - Commit and push updates to local and remote repository
     - Create the html file needed for the google homepage
     - Create the CSS file needed to portray the elements on the page accurately.
+    - Use multiple selectors with disregard to homogeny or legibility for educational purposes.
 
 ## What I won't do in this attempt: 
     - I won't create a usable form 
