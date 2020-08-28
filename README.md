@@ -26,5 +26,10 @@ This is my first attempt to recreate an existing webpage, the google homepage.
     - Formed horizontal navbar from html list, correctly placed navbar, styled font-size, color, and distance between elements of list. 
     - Added icon in html navbar, placed and styled it correctly in css. Painted "login" button in top right and used padding and margin to approximate original button measurements.
     - Started styling on footer. Added grey background, and top and bottom borders, and correctly made them go until the edges of the screen using padding and not margin.
-    - Transformed list elements in inline elements using float on container ul.
-    - Will finish tomorrow since i'm tired.
+    - Transformed footer list elements to inline elements using float on container ul.
+    - Added class and id selectors to elements in main area as needed.
+    - Transformed main area to flex grid, for educational purposes. Named grid areas and applied css styling to those elements to place them in the correct spots in the grid. Justified elements in their cells.
+    - Formatted buttons and "google is offered in [X] languages" sentence.
+    - Styling the input bar proved a small challenge, as it seemed to behave erratically. Transformed to flexbox, as it seems extremelly versatile and somewhat easier to use than separate block elements. Added icons to the left and to the right of the bar.
+    - Added image folder to working directory and place icon images there.
+    - Minor documentation to css stylesheet for future reference and educational purposes.
